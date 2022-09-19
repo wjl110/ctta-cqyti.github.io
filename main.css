@@ -1,0 +1,180 @@
+body {
+	font-family: -apple-system, BlinkMacSystemFont,
+		"Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+		"Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+		"Segoe UI Symbol";
+	background: rgb(225, 223, 233);
+}
+
+
+div.header-container {
+	width: 100%;
+	height: 90px;
+	position: fixed;
+	background: #394a9a;
+}
+
+div.header {
+	width: 100%;
+	z-index: 1;
+	font-family: math;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+div.header-img {
+	padding-top: 1em;
+	padding-left: 1em;
+	float: left;
+}
+
+div.header-text {
+	color: white;
+	padding-top: 21px;
+	padding-left: 100px;
+}
+
+div.layout-menu-container {
+	position: fixed;
+}
+
+div.layout-menu {
+	padding-top: 100px;
+	text-align: left;
+	font-size: 130%;
+	font-family: math;
+}
+
+div.menu-item {
+	margin: 0.5em 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	border-left: 5px solid #023679;
+}
+
+.layout-menu a:link {
+	line-height: 2;
+	color: #0652ab;
+	text-decoration: none;
+}
+
+.layout-menu a:visited {
+	line-height: 2;
+	color: #023679;
+	text-decoration: none;
+}
+
+.layout-menu a:hover {
+	line-height: 2;
+	color: white;
+	background: #0652ab;
+}
+
+div.layout-content-container {
+	padding-top: 110px;
+	padding-left: 12em;
+	text-align: left;
+	/*display: inline-block;*/
+}
+
+div.layout-content {
+	/*margin: auto;*/
+	max-width: 1400px;
+}
+
+div.split-line {
+	border: 1px solid #0652ab;
+	margin-bottom: 0.6em;
+}
+
+div.layout-content hr {
+	height: 1px;
+	border-width: 0;
+	width: 98%;
+	color: gray;
+	background-color: gray;
+}
+
+/*-----------projects page style begin---------------*/
+
+div.project-layout {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
+}
+
+.project-image img {
+	width: 8em;
+	height: 8em;
+	border-radius: 5%;
+	background-repeat: no-repeat;
+	background-position-y: 9%;
+	float: left;
+}
+
+div.project-text {
+	padding-left: 10em;
+	padding-top: 0.5em;
+	height: 8em;
+}
+
+/*-----------projects page style end---------------*/
+
+/*-----------courses page style begin---------------*/
+
+div.course-layout {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
+}
+
+.course-image img {
+	width: 8em;
+	height: 8em;
+	border-radius: 5%;
+	background-repeat: no-repeat;
+	background-position-y: 9%;
+	float: left;
+}
+
+div.course-text {
+	padding-left: 10em;
+	padding-top: 0.5em;
+	height: 8em;
+}
+
+/*-----------courses page style end---------------*/
+
+/*-----------members page style begin---------------*/
+div.members-layout {
+	width: 98%;
+	padding-left: 50px;
+	padding-top: 10px;
+}
+
+
+div.member {
+	display: inline-block;
+	width: 33%;
+	height: 110px;
+	padding-right: 10px;
+}
+
+
+div.members-layout img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position-y: 9%;
+	float: left;
+}
+
+div.member-text {
+	margin-left: 130px;
+	padding-top: 20px;
+}
+
+/*-----------members page style end---------------*/
